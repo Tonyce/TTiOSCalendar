@@ -8,20 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		BE169B121C0D3EB30059C4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B111C0D3EB30059C4E6 /* AppDelegate.swift */; };
-		BE169B141C0D3EB30059C4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B131C0D3EB30059C4E6 /* ViewController.swift */; };
-		BE169B171C0D3EB30059C4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE169B151C0D3EB30059C4E6 /* Main.storyboard */; };
 		BE169B191C0D3EB30059C4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE169B181C0D3EB30059C4E6 /* Assets.xcassets */; };
 		BE169B1C1C0D3EB30059C4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE169B1A1C0D3EB30059C4E6 /* LaunchScreen.storyboard */; };
+		BE169B241C0D3EEA0059C4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE169B231C0D3EEA0059C4E6 /* Main.storyboard */; };
+		BE169B261C0D3F000059C4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B251C0D3F000059C4E6 /* ViewController.swift */; };
+		BE169B281C0D3F730059C4E6 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B271C0D3F730059C4E6 /* CalendarCell.swift */; };
+		BE169B2D1C0D3FA70059C4E6 /* DateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B2A1C0D3FA70059C4E6 /* DateObject.swift */; };
+		BE169B2E1C0D3FA70059C4E6 /* Datecalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B2B1C0D3FA70059C4E6 /* Datecalculate.swift */; };
+		BE169B2F1C0D3FA70059C4E6 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B2C1C0D3FA70059C4E6 /* DayCell.swift */; };
+		BE169B311C0D40370059C4E6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B301C0D40370059C4E6 /* Color.swift */; };
+		BE169B331C0D70840059C4E6 /* SliderLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B321C0D70840059C4E6 /* SliderLabelContainer.swift */; };
+		BE169B3F1C0DFB9C0059C4E6 /* MyAddBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B3E1C0DFB9C0059C4E6 /* MyAddBtn.swift */; };
+		BE169B411C0E09860059C4E6 /* myicomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE169B401C0E09860059C4E6 /* myicomoon.ttf */; };
+		BE169B431C0E09B00059C4E6 /* IcoMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE169B421C0E09B00059C4E6 /* IcoMoon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE169B0E1C0D3EB30059C4E6 /* calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE169B111C0D3EB30059C4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE169B131C0D3EB30059C4E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE169B161C0D3EB30059C4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE169B181C0D3EB30059C4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE169B1B1C0D3EB30059C4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE169B1D1C0D3EB30059C4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE169B231C0D3EEA0059C4E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE169B251C0D3F000059C4E6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE169B271C0D3F730059C4E6 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		BE169B2A1C0D3FA70059C4E6 /* DateObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateObject.swift; sourceTree = "<group>"; };
+		BE169B2B1C0D3FA70059C4E6 /* Datecalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datecalculate.swift; sourceTree = "<group>"; };
+		BE169B2C1C0D3FA70059C4E6 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		BE169B301C0D40370059C4E6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BE169B321C0D70840059C4E6 /* SliderLabelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderLabelContainer.swift; sourceTree = "<group>"; };
+		BE169B3E1C0DFB9C0059C4E6 /* MyAddBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAddBtn.swift; sourceTree = "<group>"; };
+		BE169B401C0E09860059C4E6 /* myicomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myicomoon.ttf; sourceTree = "<group>"; };
+		BE169B421C0E09B00059C4E6 /* IcoMoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IcoMoon.swift; sourceTree = "<group>"; };
+		BE3EFE601C0E91A400901144 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,40 @@
 		BE169B101C0D3EB30059C4E6 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				BE169B421C0E09B00059C4E6 /* IcoMoon.swift */,
+				BE169B401C0E09860059C4E6 /* myicomoon.ttf */,
+				BE169B3D1C0DFB5D0059C4E6 /* contentView */,
+				BE169B321C0D70840059C4E6 /* SliderLabelContainer.swift */,
+				BE169B3E1C0DFB9C0059C4E6 /* MyAddBtn.swift */,
+				BE169B291C0D3F830059C4E6 /* Calendar */,
 				BE169B111C0D3EB30059C4E6 /* AppDelegate.swift */,
-				BE169B131C0D3EB30059C4E6 /* ViewController.swift */,
-				BE169B151C0D3EB30059C4E6 /* Main.storyboard */,
+				BE169B251C0D3F000059C4E6 /* ViewController.swift */,
+				BE169B231C0D3EEA0059C4E6 /* Main.storyboard */,
 				BE169B181C0D3EB30059C4E6 /* Assets.xcassets */,
 				BE169B1A1C0D3EB30059C4E6 /* LaunchScreen.storyboard */,
 				BE169B1D1C0D3EB30059C4E6 /* Info.plist */,
+				BE3EFE601C0E91A400901144 /* MyPlayground.playground */,
 			);
 			path = calendar;
+			sourceTree = "<group>";
+		};
+		BE169B291C0D3F830059C4E6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BE169B301C0D40370059C4E6 /* Color.swift */,
+				BE169B271C0D3F730059C4E6 /* CalendarCell.swift */,
+				BE169B2A1C0D3FA70059C4E6 /* DateObject.swift */,
+				BE169B2B1C0D3FA70059C4E6 /* Datecalculate.swift */,
+				BE169B2C1C0D3FA70059C4E6 /* DayCell.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		BE169B3D1C0DFB5D0059C4E6 /* contentView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = contentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE169B241C0D3EEA0059C4E6 /* Main.storyboard in Resources */,
 				BE169B1C1C0D3EB30059C4E6 /* LaunchScreen.storyboard in Resources */,
 				BE169B191C0D3EB30059C4E6 /* Assets.xcassets in Resources */,
-				BE169B171C0D3EB30059C4E6 /* Main.storyboard in Resources */,
+				BE169B411C0E09860059C4E6 /* myicomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +182,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE169B141C0D3EB30059C4E6 /* ViewController.swift in Sources */,
+				BE169B2D1C0D3FA70059C4E6 /* DateObject.swift in Sources */,
+				BE169B261C0D3F000059C4E6 /* ViewController.swift in Sources */,
+				BE169B311C0D40370059C4E6 /* Color.swift in Sources */,
+				BE169B331C0D70840059C4E6 /* SliderLabelContainer.swift in Sources */,
+				BE169B431C0E09B00059C4E6 /* IcoMoon.swift in Sources */,
+				BE169B3F1C0DFB9C0059C4E6 /* MyAddBtn.swift in Sources */,
+				BE169B281C0D3F730059C4E6 /* CalendarCell.swift in Sources */,
 				BE169B121C0D3EB30059C4E6 /* AppDelegate.swift in Sources */,
+				BE169B2F1C0D3FA70059C4E6 /* DayCell.swift in Sources */,
+				BE169B2E1C0D3FA70059C4E6 /* Datecalculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE169B151C0D3EB30059C4E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE169B161C0D3EB30059C4E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE169B1A1C0D3EB30059C4E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttang.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttang.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +333,7 @@
 				BE169B221C0D3EB30059C4E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

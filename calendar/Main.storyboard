@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="myicomoon.ttf">
+            <string>myicomoon</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7s-nY-UMT">
+                                <rect key="frame" x="0.0" y="274" width="600" height="326"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.71588991189999995" green="1" blue="0.69537296660000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lG4-6C-Uiq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="274"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICQ-Ps-hDv">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                        <subviews>
+                                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k27-Zh-oJh" customClass="SliderLabelContainer" customModule="calendar" customModuleProvider="target">
+                                                <rect key="frame" x="80" y="27" width="140" height="30"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="U7R-R2-UCd"/>
+                                                    <constraint firstAttribute="width" constant="140" id="spU-ox-uzZ"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGP-np-Rwm">
+                                                <rect key="frame" x="540" y="27" width="50" height="30"/>
+                                                <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="lyZ-kQ-2od"/>
+                                                    <constraint firstAttribute="width" constant="50" id="wsm-0D-IId"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="myicomoon" family="myicomoon" pointSize="22"/>
+                                                <state key="normal" title="today"/>
+                                                <connections>
+                                                    <action selector="backToday:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ubg-Nw-052"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="cGP-np-Rwm" secondAttribute="trailing" constant="10" id="KET-9p-BTY"/>
+                                            <constraint firstItem="k27-Zh-oJh" firstAttribute="centerY" secondItem="ICQ-Ps-hDv" secondAttribute="centerY" constant="10" id="WVH-iA-Igz"/>
+                                            <constraint firstItem="k27-Zh-oJh" firstAttribute="leading" secondItem="ICQ-Ps-hDv" secondAttribute="leading" constant="80" id="YO7-CU-eXL"/>
+                                            <constraint firstItem="cGP-np-Rwm" firstAttribute="centerY" secondItem="ICQ-Ps-hDv" secondAttribute="centerY" constant="10" id="moc-mU-O6Q"/>
+                                            <constraint firstAttribute="height" constant="64" id="z7U-Ef-aas"/>
+                                        </constraints>
+                                    </view>
+                                    <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jha-B5-o1N">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="200"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="Mtj-bx-5K7"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Jha-B5-o1N" secondAttribute="bottom" constant="10" id="5Kz-OH-lTO"/>
+                                    <constraint firstAttribute="trailing" secondItem="ICQ-Ps-hDv" secondAttribute="trailing" id="9bL-rC-bVm"/>
+                                    <constraint firstItem="Jha-B5-o1N" firstAttribute="leading" secondItem="lG4-6C-Uiq" secondAttribute="leading" id="Acg-YI-mg4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jha-B5-o1N" secondAttribute="trailing" id="QqM-P8-j5g"/>
+                                    <constraint firstItem="ICQ-Ps-hDv" firstAttribute="top" secondItem="lG4-6C-Uiq" secondAttribute="top" id="crl-5v-h7T"/>
+                                    <constraint firstItem="ICQ-Ps-hDv" firstAttribute="leading" secondItem="lG4-6C-Uiq" secondAttribute="leading" id="gOT-cA-vUX"/>
+                                    <constraint firstItem="Jha-B5-o1N" firstAttribute="top" secondItem="ICQ-Ps-hDv" secondAttribute="bottom" id="oeF-pa-phX"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XO4-mZ-iF3" customClass="MyAddButton" customModule="calendar" customModuleProvider="target">
+                                <rect key="frame" x="533" y="540" width="45" height="45"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="cGB-t7-yhJ"/>
+                                    <constraint firstAttribute="width" constant="45" id="z4E-zf-lA1"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lG4-6C-Uiq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Nz-Sc-MwT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XO4-mZ-iF3" secondAttribute="bottom" constant="15" id="Hp8-2f-8nz"/>
+                            <constraint firstItem="lG4-6C-Uiq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="I9w-SF-A6m"/>
+                            <constraint firstAttribute="trailing" secondItem="lG4-6C-Uiq" secondAttribute="trailing" id="L5k-Xa-y5d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XO4-mZ-iF3" secondAttribute="trailing" constant="2" id="SkZ-8y-CLE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a7s-nY-UMT" secondAttribute="bottom" id="aZk-3o-6XL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a7s-nY-UMT" secondAttribute="trailing" constant="-20" id="gFl-gt-Zml"/>
+                            <constraint firstItem="a7s-nY-UMT" firstAttribute="top" secondItem="lG4-6C-Uiq" secondAttribute="bottom" id="qTR-iO-fq1"/>
+                            <constraint firstItem="a7s-nY-UMT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="zYo-he-sm5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentScrollView" destination="a7s-nY-UMT" id="Lzq-km-Yhx"/>
+                        <outlet property="headerView" destination="lG4-6C-Uiq" id="wzZ-1W-4u3"/>
+                        <outlet property="scrollView" destination="Jha-B5-o1N" id="0Zp-r5-YPF"/>
+                        <outlet property="scrollViewHeight" destination="Mtj-bx-5K7" id="Pj2-5U-xUS"/>
+                        <outlet property="sliderMonthView" destination="k27-Zh-oJh" id="1fr-Jv-qAo"/>
+                        <outlet property="todayBtn" destination="cGP-np-Rwm" id="8Yy-OS-Ob7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="350"/>
+        </scene>
+    </scenes>
+</document>
